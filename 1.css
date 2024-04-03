@@ -1,0 +1,99 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.head{
+    background-image: url(./Pics/26.jpeg);
+    background-position: center;
+    color:white;
+    position:relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.link{
+    color: white;
+    font-size: 20px;
+}
+div.link {
+    display: inline-block;
+    margin: 0 auto;
+}
+div.link a {
+    color: #ffffff;
+    background-color: rgba(134, 99,68, 0.718);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.page-title{
+    position: absolute;
+    margin: 10px;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+.overlay{
+    background:radial-gradient(circle at center, rgba(90, 86, 86, 0.3) 30%, rgba(108, 108, 103, 0.3) 90%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 130px;
+    background-size: cover;
+}
+.overlay-grey{
+    background:radial-gradient(circle at center, rgba(134, 99,68, 0.718) 80%, rgba(134, 99,68, 0.718) 30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-size: cover;
+}
+.head::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: rgba(90, 86, 86, 0.3);
+    z-index: 1;
+}
+.intro{
+    font-size: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color:white;
+    padding:120px;
+}
+.footer {
+    background-color: rgb(134, 99, 69);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+.top-section-bar {
+    background:rgb(134, 99, 69, 0.718);;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+}
+.top-section-bar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    height: 100%;
+}
+.top-section-bar a:hover {
+    background-color: #ddd;
+    color: rgb(134, 99, 69);
+}
+.head {
+    padding-top: 50px;
+}
