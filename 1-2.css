@@ -1,0 +1,93 @@
+body{
+        font-family: Amiri;
+        line-height: 1.6;
+        margin: 0;
+        padding-top: 10px; 
+        background-image: url('Pics/26.jpeg');
+        background-size: cover; 
+        background-position: center 1%; 
+        background-repeat: no-repeat;    
+}
+
+header{
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+}
+
+.header{
+        position: absolute;
+        font-size: 20px;
+        text-align:left;
+        top: 100px;
+        left: 100px;
+}
+
+.intro{
+        position: absolute;
+        color: white;
+        top: 475px;
+        left: 100px; 
+}
+
+.top-section-bar {
+        position: absolute;
+        font-size: 25px;
+        text-align: left;
+        top: 20px;
+        left: 0;
+        right: 0;
+        padding: 1%;
+        background-color: rgba(134, 99,68, 0.718);
+        transition: background-color 0.3s, color 0.3s;
+}
+
+.top-section-bar a {
+        color: white;
+        text-decoration: none;
+        font-size: 23px;
+        padding: 0 15px;
+}
+
+.top-section-bar a:hover {
+        background-color:white;
+        color: rgb(134, 99, 69);
+        border-radius: 5px;
+        padding: 13px 15px;
+}
+
+.learn {
+        position: absolute;
+        font-size: 20px;
+        text-align:left;
+        top: 800px;
+        left: 100px;
+        padding: 1%;
+        background-color: rgba(134, 99,68, 0.718);
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+}
+
+.learn a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 20px;
+}
+
+.learn :hover {
+        background-color:white;
+        color: rgb(134, 99, 69);
+        border-radius: 5px;
+        padding: 12px 22px;
+}
+
+.grey{
+        position: absolute;
+        background:radial-gradient(circle at center, rgba(90, 86, 86, 0.3) 30%, rgba(108, 108, 103, 0.3) 90%);
+        justify-content:baseline;
+        align-items:baseline;
+        padding:50%;
+        background-size: cover;
+        top:0%;
+}
+
